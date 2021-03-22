@@ -10,7 +10,7 @@ create requirements.txt file
 
 pip install -r requirements.txt
 
-
+```bash
 git init
 
 
@@ -29,3 +29,4 @@ git remote add origin https://github.com/victen18/wineq.git
 git branch -M main 
 
 git push origin main
+```
