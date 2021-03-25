@@ -69,7 +69,7 @@ def train_and_evaluate(config_path):
         }
         json.dump(scores, f, indent=4)
 
-    with open(params_file, "w") as f:
+    with open(params_file, "w") as f:	
         params = {
             "alpha": alpha,
             "l1_ratio": l1_ratio,
