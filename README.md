@@ -26,4 +26,14 @@ git remote add origin https://github.com/victen18/wineq.git
 git branch -M main 
 
 git push origin main
+
+create artifacts folder
+
+mlflow server command - 
+
+mlflow server \ 
+	-- backend-store-uri sqlite://mlflow.db \ 
+	-- default-artifact-root ./artifacts \ 
+	-- host 0.0.0.0 -p 1234
 ```
+
