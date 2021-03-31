@@ -1,6 +1,6 @@
 action: GLOB, msg: packaging
 cwd: C:\Users\vikra\wineq
-cmd: 'c:\users\vikra\anaconda3\envs\pytorchenv\python.exe' setup.py sdist --formats=zip --dist-dir '.tox\dist'
+cmd: 'c:\users\vikra\anaconda3\envs\wineq\python.exe' setup.py sdist --formats=zip --dist-dir '.tox\dist'
 running sdist
 running egg_info
 writing src.egg-info\PKG-INFO
